@@ -1,0 +1,24 @@
+#btDiv4, #btDiv4 > section, section > p {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#btDiv4 {
+    
+    flex-direction: column;
+    
+
+    height: 400px;
+}
+
+section {
+    color: beige
+}
+
+section > p {
+    
+    flex-direction: column;
+    
+    margin: 10px;
+}
